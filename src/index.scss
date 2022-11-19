@@ -79,9 +79,24 @@ a {
 
 @keyframes hover-btn {
   from {
-    box-shadow: inset -4px -4px 4px #fdfbfa, inset 3px 3px 4px #bebab7;
+    filter: drop-shadow(0px -4px 4px #fdfbfa) drop-shadow(-3px -3px 4px #fdfbfa)
+      drop-shadow(3px 3px 5px #bebab7);
+    background: linear-gradient(
+      180deg,
+      #f8f3f1 0%,
+      rgba(245, 240, 238, 0) 107.5%,
+      #ffffff 107.5%
+    );
   }
   to {
-    box-shadow: inset -4px -4px 4px 3px #fdfbfa, inset 3px 3px 4px 6px #ebe9e875;
+    background: linear-gradient(
+      180deg,
+      #f0e9e6 -17.39%,
+      rgba(245, 240, 238, 0) 100%,
+      #ffffff 100%
+    );
+    box-shadow: inset -4px -4px 4px #fdf4f0, inset 0px 0px 4px #e8e2dd;
+    filter: drop-shadow(-2px -2px 4px #fff5f0)
+      drop-shadow(-3px -3px 4px #fdfbfa) drop-shadow(2px 2px 5px #bebab7);
   }
 }
