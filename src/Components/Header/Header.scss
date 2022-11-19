@@ -1,0 +1,32 @@
+.container__header {
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  align-self: center;
+  &-smartphone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    .burger {
+      margin-left: 10%;
+      z-index: 6;
+      cursor: pointer;
+      span {
+        height: 2.5px;
+        background-color: black;
+        width: 30px;
+      }
+    }
+    .ag-logo {
+      width: 100px;
+    }
+    .contact-icon {
+      margin-right: 10%;
+      img {
+        width: 30px;
+      }
+    }
+  }
+}
