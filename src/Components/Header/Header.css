@@ -1,0 +1,108 @@
+.container__header {
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.container__header-smartphone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+.container__header-smartphone .burger {
+  margin-left: 10%;
+  z-index: 6;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  row-gap: 5px;
+}
+
+.container__header-smartphone .burger span {
+  display: block;
+  height: 3px;
+  background-color: black;
+  width: 30px;
+  border-radius: 25px;
+}
+
+.container__header-smartphone .ag-logo {
+  width: 100px;
+}
+
+.container__header-smartphone .contact-icon {
+  margin-right: 10%;
+}
+
+.container__header-smartphone .contact-icon img {
+  width: 30px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__header-smartphone {
+    display: none;
+  }
+}
+
+.container__header-desktop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container__header-desktop {
+    display: none;
+  }
+}
+
+.container__header-desktop img {
+  width: 100px;
+}
+
+.container__header-desktop nav {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container__header-desktop nav a {
+  display: block;
+}
+/*# sourceMappingURL=Header.css.map */

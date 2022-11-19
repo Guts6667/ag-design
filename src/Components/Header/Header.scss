@@ -13,10 +13,17 @@
       margin-left: 10%;
       z-index: 6;
       cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      row-gap: 5px;
       span {
-        height: 2.5px;
+        display: block;
+        height: 3px;
         background-color: black;
         width: 30px;
+        border-radius: 25px;
       }
     }
     .ag-logo {
@@ -26,6 +33,31 @@
       margin-right: 10%;
       img {
         width: 30px;
+      }
+    }
+    @media only screen and (min-width: 1024px) {
+      display: none;
+    }
+  }
+  &-desktop {
+    @media only screen and (max-width: 1024px) {
+      display: none;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+    img {
+      width: 100px;
+    }
+    nav {
+      width: 40%;
+      display: flex;
+      justify-content: space-between;
+      a {
+        display: block;
       }
     }
   }

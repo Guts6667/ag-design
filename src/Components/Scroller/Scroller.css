@@ -1,0 +1,9 @@
+.scroller {
+  position: absolute;
+  bottom: 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 50px;
+}
+/*# sourceMappingURL=Scroller.css.map */

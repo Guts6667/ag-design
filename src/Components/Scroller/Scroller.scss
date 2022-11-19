@@ -1,0 +1,12 @@
+.scroller {
+  position: fixed;
+  z-index: 3;
+  bottom: 50px;
+  left: 50%;
+  align-self: center;
+  width: fit-content;
+  cursor: pointer;
+  img {
+    width: 50px;
+  }
+}

@@ -1,1 +1,112 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+@font-face {
+  font-family: "Poppins";
+  src: url("./Fonts/poppins/Poppins-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./Fonts/poppins/Poppins-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(88.64deg, #f5f0ee 9.53%, #ffffff 134.77%);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.2 !important;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 56px;
+    line-height: 1;
+  }
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.text-xs {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.text-grey {
+  color: #797776;
+}
+
+.btn-neumorphism {
+  -webkit-box-shadow: inset -4px -4px 4px #fdfbfa, inset 3px 3px 4px #bebab7;
+          box-shadow: inset -4px -4px 4px #fdfbfa, inset 3px 3px 4px #bebab7;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 100px;
+  -webkit-filter: drop-shadow(0px -4px 4px #fdfbfa) drop-shadow(-3px -3px 4px #fdfbfa) drop-shadow(3px 3px 5px #bebab7);
+          filter: drop-shadow(0px -4px 4px #fdfbfa) drop-shadow(-3px -3px 4px #fdfbfa) drop-shadow(3px 3px 5px #bebab7);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f8f3f1), color-stop(107.5%, rgba(245, 240, 238, 0)), color-stop(107.5%, #ffffff));
+  background: linear-gradient(180deg, #f8f3f1 0%, rgba(245, 240, 238, 0) 107.5%, #ffffff 107.5%);
+}
+
+.btn-neumorphism:hover {
+  -webkit-animation: hover-btn 0.4s forwards ease-in-out;
+          animation: hover-btn 0.4s forwards ease-in-out;
+}
+
+@-webkit-keyframes hover-btn {
+  from {
+    -webkit-box-shadow: inset -4px -4px 4px #fdfbfa, inset 3px 3px 4px #bebab7;
+            box-shadow: inset -4px -4px 4px #fdfbfa, inset 3px 3px 4px #bebab7;
+  }
+  to {
+    -webkit-box-shadow: inset -4px -4px 4px 3px #fdfbfa, inset 3px 3px 4px 6px #ebe9e875;
+            box-shadow: inset -4px -4px 4px 3px #fdfbfa, inset 3px 3px 4px 6px #ebe9e875;
+  }
+}
+
+@keyframes hover-btn {
+  from {
+    -webkit-box-shadow: inset -4px -4px 4px #fdfbfa, inset 3px 3px 4px #bebab7;
+            box-shadow: inset -4px -4px 4px #fdfbfa, inset 3px 3px 4px #bebab7;
+  }
+  to {
+    -webkit-box-shadow: inset -4px -4px 4px 3px #fdfbfa, inset 3px 3px 4px 6px #ebe9e875;
+            box-shadow: inset -4px -4px 4px 3px #fdfbfa, inset 3px 3px 4px 6px #ebe9e875;
+  }
+}
+/*# sourceMappingURL=index.css.map */

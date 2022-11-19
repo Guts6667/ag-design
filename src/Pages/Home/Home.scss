@@ -12,9 +12,15 @@
   background-attachment: fixed;
   h1 {
     margin-block-end: 0;
+    @media only screen and (min-width: 1024px) {
+      max-width: 70%;
+    }
   }
   p,
   a {
     margin-top: 30px;
+    img {
+      width: 10px;
+    }
   }
 }

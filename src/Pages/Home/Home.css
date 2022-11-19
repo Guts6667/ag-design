@@ -1,0 +1,42 @@
+.container__home {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../../../public/assets/home-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+}
+
+.container__home h1 {
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container__home h1 {
+    max-width: 70%;
+  }
+}
+
+.container__home p,
+.container__home a {
+  margin-top: 30px;
+}
+
+.container__home p img,
+.container__home a img {
+  width: 10px;
+}
+/*# sourceMappingURL=Home.css.map */
