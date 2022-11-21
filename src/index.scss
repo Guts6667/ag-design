@@ -75,6 +75,13 @@ a {
   &:hover {
     animation: hover-btn 0.4s forwards ease-in-out;
   }
+  &:active {
+    position: relative;
+    animation: active-btn 0.36s forwards ease-in-out;
+    span {
+      display: none;
+    }
+  }
 }
 
 @keyframes hover-btn {
@@ -98,5 +105,19 @@ a {
     box-shadow: inset -4px -4px 4px #fdf4f0, inset 0px 0px 4px #e8e2dd;
     filter: drop-shadow(-2px -2px 4px #fff5f0)
       drop-shadow(-3px -3px 4px #fdfbfa) drop-shadow(2px 2px 5px #bebab7);
+  }
+}
+@keyframes active-btn {
+  from {
+    border-radius: 100px;
+    padding: 10px 20px;
+    left: 100px;
+    rotate: 0deg;
+  }
+  to {
+    border-radius: 100%;
+    padding: 10px 18px;
+    left: 100px;
+    rotate: 360deg;
   }
 }

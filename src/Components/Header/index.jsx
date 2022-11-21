@@ -7,6 +7,7 @@ const Header = () => {
     const toggleBtn = () => {
         const burger = document.querySelector('.burger');
         burger.classList.toggle("open");
+        
         if(burger.classList.contains("open")){
             setIsOpen(true)
         } else{
