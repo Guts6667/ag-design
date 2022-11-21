@@ -25,7 +25,6 @@ const Header = () => {
                 <a href="#contact" className="contact-icon">
                     <img src="/assets/icon-contact.png"  alt="" />
                 </a>
-                
             </div>
             <div className="container__header-desktop">
             <img src="/assets/Logo-AG-Design.png" className="ag-logo" alt="Logo AG Design" />
@@ -36,6 +35,17 @@ const Header = () => {
                 <a href="#contact">Contact</a>
             </nav>
             </div>
+            { isOpen && (
+            <div className="container__navMenu">
+                <nav>
+                    <a href="#home" onClick={toggleBtn}><span>Home</span><img src="/assets/chevron-right.svg" alt="Chevron Right" /></a>
+                    <a href="#about" onClick={toggleBtn}><span>About</span><img src="/assets/chevron-right.svg" alt="Chevron Right" /></a>
+                    <a href="#portfolio" onClick={toggleBtn}><span>Portfolio</span><img src="/assets/chevron-right.svg" alt="Chevron Right" /></a>
+                    <a href="#contact" onClick={toggleBtn}><span>Contact</span><img src="/assets/chevron-right.svg" alt="Chevron Right" /></a>
+                </nav>
+            </div>
+            )}
+            
         </header>
     )
 }
