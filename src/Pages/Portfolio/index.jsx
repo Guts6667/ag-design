@@ -16,7 +16,7 @@ const Portfolio = () => {
             {datas && (
                 datas.map((data) => {
                     return(
-                        <PortfolioItem key={`${data.index}-${data.title}`} title={data.title} description={data.description} picture={data.picture} link={data.link}  />
+                        <PortfolioItem key={`${data.index}-${data.title}`} title={data.title} description={data.description} picture={data.picture} link={data.link} position={data.position} />
                     )          
                 })
             )}

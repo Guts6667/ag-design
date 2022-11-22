@@ -1,5 +1,5 @@
 .container__header {
-  background: transparent;
+  background: linear-gradient(88.64deg, #f5f0ee9e 9.53%, #ffffff75 134.77%);
   position: fixed;
   width: 100%;
   z-index: 5;
@@ -16,7 +16,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     .burger {
       margin-left: 10%;
       z-index: 6;
@@ -101,7 +102,8 @@
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     img {
       width: 100px;
     }

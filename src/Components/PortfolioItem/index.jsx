@@ -1,20 +1,18 @@
 import React from "react";
 import "./PortfolioItem.scss"
 
-const PortfolioItem = ({title, description, picture, link}) => {
-    console.log(title);
+const PortfolioItem = ({title, description, picture, link, position}) => {
+    console.log(position);
     return(
-        <article className="">
-            <img src={`/assets/portfolio/${picture}`} alt={title} />
-            <div className="">
-                <span>{title}</span>
+        <article className={`portfolioItem ${position === 'left'? 'left' : 'right'}`}>
+             <div className="portfolioItem__description">
+                <span className="portfolioItem__description-title">{title}</span>
                 <h2>My latest projects</h2>
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <a href={link} target="_blank" rel="noopener noreferrer" className="text-grey btn-neumorphism "><span>The Website </span><img src="/assets/icon-arrow.png" alt="Icon Arrow" /></a>
             </div>
-            
-
+            <img src={`/assets/portfolio/${picture}`} alt={title} />
         </article>
     )
 }

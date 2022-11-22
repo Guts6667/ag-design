@@ -5,7 +5,7 @@
         "description" : "Mbuzz Esports is part of Mbuzz Group, an established Saudi-based company in Industrial Communication & Technology (ICT). Mbuzz Esports is now leveraging all the know-how, network, and experience of its mother company to offer world-class innovative solutions and new experiences in the Gaming industry, both for local enterprises and the gamers community.",
         "picture" : "Mbuzzesports.png",
         "link" : "https://mbuzzesports.com/",
-        "block" : "right"
+        "position" : "left"
     },
     {
         "index" : "1",
@@ -13,14 +13,14 @@
         "description" : "Saudi Excellence Holding Company is part of Al-Ramez International Group, which was Established in 1991 with diversified business areas. Saudi Excellence Holding Company is one of the leading companies in the region, providing the latest technologies in the field of security and defense to Saudi Government and Enterprises in Saudi Arabia.",
         "picture" : "Saudiexcellenceco.png",
         "link" : "https://www.saudiexcellenceco.com/",
-        "block" : "left"
+        "position" : "right"
     },
     {
         "index" : "2",
         "title" : "A.C. Ventures",
-        "description" : "",
-        "picture" : "",
-        "link" : "",
-        "block" : "right"
+        "description" : "Mbuzz Esports is part of Mbuzz Group, an established Saudi-based company in Industrial Communication & Technology (ICT). Mbuzz Esports is now leveraging all the know-how, network, and experience of its mother company to offer world-class innovative solutions and new experiences in the Gaming industry, both for local enterprises and the gamers community.",
+        "picture" : "Saudiexcellenceco.png",
+        "link" : "https://www.saudiexcellenceco.com/",
+        "position" : "left"
     }
 ]
