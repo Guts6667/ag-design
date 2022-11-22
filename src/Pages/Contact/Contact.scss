@@ -41,4 +41,17 @@
       }
     }
   }
+  .form-thanks {
+    box-shadow: inset -4px -4px 4px #fdfbfa, inset 3px 3px 4px #bebab7;
+    width: fit-content;
+    padding: 15px 15px;
+    border-radius: 100px;
+    mix-blend-mode: multiply;
+    background: linear-gradient(
+      180deg,
+      #f8f3f1 0%,
+      rgba(245, 240, 238, 0) 107.5%,
+      #ffffff 107.5%
+    );
+  }
 }

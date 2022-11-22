@@ -23,6 +23,7 @@ const Contact = () => {
         <section className="container__contact" id="contact">
             <h2>Thinking of a project?</h2>
             <p>Do you want to redesign your website? Or simply create your website from A to Z? Then you have come to the right place, click here! 👇🏻</p>
+            {!emailSent &&(
             <form ref={form} onSubmit={sendEmail}>
                 <input type="text" name="user_name" placeholder={'Name'} className="input" />
                 <input type="email" name="user_email" placeholder={'E-mail'} className="input" />
@@ -32,6 +33,15 @@ const Contact = () => {
                     <img src="/assets/icon-arrow.png" alt="Icon Arrow" />
                 </div>
             </form>
+                )}
+            {
+                emailSent&&(
+                    <div className="form-thanks">
+                        <span><strong>Thanks for reaching out! Your email has been sent ☀️</strong></span>
+                    </div>
+                )
+            }
+            
         </section>
     )
 }
