@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import Header from "./Components/Header";
 import "./index.scss";
 import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
 import Portfolio from "./Pages/Portfolio";
 
@@ -13,5 +14,6 @@ root.render(
     <Home />
     <About />
     <Portfolio />
+    <Contact />
   </React.StrictMode>
 );

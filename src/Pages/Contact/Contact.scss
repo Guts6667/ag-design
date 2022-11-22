@@ -1,0 +1,44 @@
+.container__contact {
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../../../public/assets/home-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  @media only screen and (min-width: 1024px) {
+    background-attachment: fixed;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    input {
+      border-radius: 100px;
+    }
+    textarea {
+      border-radius: 25px;
+      height: 150px;
+    }
+    .input {
+      padding: 15px 15px;
+      background-color: transparent;
+      border: 1px solid rgba(0, 0, 0, 0.8);
+    }
+    .submit-btn {
+      margin-top: 20px;
+      align-self: flex-end;
+      input {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+      }
+      img {
+        width: 10px;
+      }
+    }
+  }
+}

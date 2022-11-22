@@ -12,7 +12,7 @@ const Portfolio = () => {
         .then((datas) => setDatas(datas)) 
     }, [])
     return(
-        <section className="container container__portfolio">
+        <section className="container container__portfolio" id="portfolio">
             {datas && (
                 datas.map((data) => {
                     return(

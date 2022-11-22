@@ -64,6 +64,8 @@ a {
   width: fit-content;
   padding: 10px 20px;
   border-radius: 100px;
+  mix-blend-mode: multiply;
+  cursor: pointer;
   filter: drop-shadow(0px -4px 4px #fdfbfa) drop-shadow(-3px -3px 4px #fdfbfa)
     drop-shadow(3px 3px 5px #bebab7);
   background: linear-gradient(
@@ -75,6 +77,10 @@ a {
   &:hover {
     animation: hover-btn 0.4s forwards ease-in-out;
   }
+  &:active {
+    animation: hover-active 0.4s forwards ease-in-out;
+  }
+
   img {
     width: 10px !important;
   }
@@ -105,5 +111,20 @@ a {
     box-shadow: inset -4px -4px 4px #fdf4f0, inset 0px 0px 4px #e8e2dd;
     filter: drop-shadow(-2px -2px 4px #fff5f0)
       drop-shadow(-3px -3px 4px #fdfbfa) drop-shadow(2px 2px 5px #bebab7);
+  }
+}
+@keyframes active-btn {
+  from {
+    filter: drop-shadow(0px -4px 4px #fdfbfa) drop-shadow(-3px -3px 4px #fdfbfa)
+      drop-shadow(3px 3px 5px #bebab7);
+    background: linear-gradient(
+      180deg,
+      #f8f3f1 0%,
+      rgba(245, 240, 238, 0) 107.5%,
+      #ffffff 107.5%
+    );
+  }
+  to {
+    filter: none;
   }
 }
