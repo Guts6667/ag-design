@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import "./index.scss";
 import About from "./Pages/About";
@@ -15,5 +16,6 @@ root.render(
     <About />
     <Portfolio />
     <Contact />
+    <Footer />
   </React.StrictMode>
 );

@@ -12,35 +12,48 @@
   @media only screen and (min-width: 1024px) {
     background-attachment: fixed;
   }
-  form {
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-    input {
-      border-radius: 100px;
+  &-content {
+    @media only screen and (min-width: 768px) {
+      width: 60%;
     }
-    textarea {
-      border-radius: 25px;
-      height: 150px;
-    }
-    .input {
-      padding: 15px 15px;
-      background-color: transparent;
-      border: 1px solid rgba(0, 0, 0, 0.8);
-    }
-    .submit-btn {
-      margin-top: 20px;
-      align-self: flex-end;
-      input {
-        border: none;
-        background: transparent;
-        cursor: pointer;
+    form {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      input,
+      textarea {
+        &:focus-visible {
+          outline: 2px solid white;
+          border: none;
+        }
       }
-      img {
-        width: 10px;
+      input {
+        border-radius: 100px;
+      }
+      textarea {
+        border-radius: 25px;
+        height: 150px;
+      }
+      .input {
+        padding: 15px 15px;
+        background-color: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+      }
+      .submit-btn {
+        margin-top: 20px;
+        align-self: flex-end;
+        input {
+          border: none;
+          background: transparent;
+          cursor: pointer;
+        }
+        img {
+          width: 10px;
+        }
       }
     }
   }
+
   .form-thanks {
     box-shadow: inset -4px -4px 4px #fdfbfa, inset 3px 3px 4px #bebab7;
     width: fit-content;

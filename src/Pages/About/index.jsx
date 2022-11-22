@@ -13,9 +13,9 @@ const About = () => {
                 <p>
                 Hello, I'm Alexiane Grieu!<br/><br/>
                 Passionate for years by the digital world, I decided to start UX/UI design in 2022! In addition to my freelance webdesign services, I started a Product Manager training in September 2022.<br/><br/>
-                In order to offer you a complete website creation offer, we have created, with my partner <a href="rayanchambet.com" target="_blank" rel="noopener noreferrer" className="text-grey">Rayan Chambet </a> (Front-end developer), the BLOB agency.
+                In order to offer you a complete website creation offer, we have created, with my partner <a href="https://www.rayanchambet.com" target="_blank" rel="noopener noreferrer" className="text-grey">Rayan Chambet </a> (Software & Web developer), the BLOB agency.
                 </p>
-                <a href="blob-agency.com" target="_blank" rel="noopener noreferrer" className="btn-neumorphism text-grey"><span>Our website </span><img src="/assets/icon-arrow.png" alt="Icon Arrow" /></a>
+                <a href="https://blob-agency.com" target="_blank" rel="noopener noreferrer" className="btn-neumorphism text-grey"><span>Our website </span><img src="/assets/icon-arrow.png" alt="Icon Arrow" /></a>
             </div>
         </section>
     )

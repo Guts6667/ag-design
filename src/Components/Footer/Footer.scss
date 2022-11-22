@@ -1,0 +1,15 @@
+footer {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30%;
+  img {
+    width: 30px;
+  }
+  .footer__social {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+  }
+}
