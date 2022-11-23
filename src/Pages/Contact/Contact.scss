@@ -23,8 +23,8 @@
       input,
       textarea {
         &:focus-visible {
-          outline: 2px solid white;
-          border: none;
+          outline: none;
+          border: 2px solid white;
         }
       }
       input {
