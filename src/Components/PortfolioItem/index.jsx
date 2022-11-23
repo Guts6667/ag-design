@@ -2,7 +2,6 @@ import React from "react";
 import "./PortfolioItem.scss"
 
 const PortfolioItem = ({title, description, picture, link, position}) => {
-    console.log(position);
     return(
         <article className={`portfolioItem ${position === 'left'? 'left' : 'right'}`}>
              <div className="portfolioItem__description">
