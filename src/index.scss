@@ -22,7 +22,7 @@ textarea {
 }
 h1 {
   font-weight: 800;
-  font-size: 34px;
+  font-size: 32px;
   line-height: 1.2 !important;
 
   @media only screen and (min-width: 768px) {
@@ -56,11 +56,11 @@ p {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #323232 !important;
 }
 
 .text-grey {
-  color: #797776;
+  color: #797776 !important;
 }
 
 .btn-neumorphism {
