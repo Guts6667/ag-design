@@ -14,8 +14,12 @@ body {
   background: linear-gradient(88.64deg, #f5f0ee 9.53%, #ffffff 134.77%);
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
+  color: #323232;
 }
 
+textarea {
+  font-family: "Poppins", Arial, Helvetica, sans-serif !important;
+}
 h1 {
   font-weight: 800;
   font-size: 34px;
@@ -62,7 +66,7 @@ a {
 .btn-neumorphism {
   box-shadow: inset -4px -4px 4px #fdfbfa, inset 3px 3px 4px #bebab7;
   width: fit-content;
-  padding: 10px 20px;
+  padding: 10px 25px;
   border-radius: 100px;
   mix-blend-mode: multiply;
   cursor: pointer;
@@ -79,6 +83,9 @@ a {
   }
   &:active {
     animation: hover-active 0.4s forwards ease-in-out;
+  }
+  span {
+    font-size: 14px;
   }
 
   img {
