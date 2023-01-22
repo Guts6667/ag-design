@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import "./Header.scss"
 
+/**
+ * Header
+ * @returns {JSX} React Component
+ */
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
 

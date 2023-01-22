@@ -1,6 +1,12 @@
 import React, { useRef, useState } from "react";
 import "./Contact.scss"
 import emailjs from '@emailjs/browser';
+
+/**
+ * Section Contact
+ * @returns {JSX} React Component
+ */
+
 const Contact = () => {
     const form = useRef();
     const [displayForm, setDisplayForm] = useState(true);

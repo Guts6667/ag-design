@@ -1,7 +1,10 @@
 import React from "react";
 import "./Home.scss"
 
-
+/**
+ * Section Home
+ * @returns {JSX} React Component
+ */
 const Home = () => {
     return(
         <section className="container__home" id="home">

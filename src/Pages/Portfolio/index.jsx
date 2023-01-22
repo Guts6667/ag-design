@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import PortfolioItem from "../../Components/PortfolioItem";
 import "./Portfolio.scss"
 
+/**
+ * Section Portfolio
+ * @returns {JSX} React Component
+ */
 const Portfolio = () => {
 
     const [datas, setDatas ] = useState([])
